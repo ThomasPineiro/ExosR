@@ -3,14 +3,17 @@ v<-seq(101, 112, 1)
 v
 
 #a2
-prepW<-c(4,6,9)
-w<-rep(prepW, 4)
+#Pour a2 et a3 je me suis rendu compte que l'on pouvait éviter de perdre du temps et des ressources en faisant directement la dernière ligne
+#prepW<-c(4,6,9)
+#w<-rep(prepW, 4)
+w<-rep(c(4, 6, 9), 4)
 
 #a3
-prepX1<- rep(4, 8)
-prepX2<-rep(6, 7)
-prepX3<-rep(3, 5)
-x<-c(prepX1, prepX2, prepX3)
+#prepX1<- rep(4, 8)
+#prepX2<-rep(6, 7)
+#prepX3<-rep(3, 5)
+#x<-c(prepX1, prepX2, prepX3)
+x<-c(rep(4,8), rep(6,7), rep(3,5))
 
 #???b1
 masse<-c(28, 27.5, 27, 28, 30.5, 30, 31, 29.5, 30, 31, 31, 31.5, 32, 30, 30.5)
